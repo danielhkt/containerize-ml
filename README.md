@@ -11,7 +11,7 @@ Steps:
     
     -> docker build -t docker-ml-model -f Dockerfile .
 
-3. Perform inference by running the container.
+3. Perform batch inference by running the container.
     
     -> docker run -v /Users/<placeholder>/docker_data/:/home/docker_data/ docker-ml-model python inference.py
 
